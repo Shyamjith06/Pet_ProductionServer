@@ -1,6 +1,6 @@
 node {
  stage('Git-Checkout for ansible') {
-   git 'https://github.com/Shyamjith06/ansible-2.git'
+   git 'https://github.com/Shyamjith06/Pet_ProductionServer.git'
   }
   stage('Geting Ready For Ansible') {
     def server= Artifactory.server 'Artifactory'
